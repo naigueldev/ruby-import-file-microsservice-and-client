@@ -12,6 +12,9 @@
 
 * How to run the test suite
 
+## Acessar o container
+
+`docker exec -it microservice_api_1 bash`
 
 # Documentação do CNAB
 
@@ -39,3 +42,8 @@
 | 7 | Recebimento TED | Entrada | + |
 | 8 | Recebimento DOC | Entrada | + |
 | 9 | Aluguel | Saída | - |
+
+
+## Diagrama de classes
+
+![Class diagram](./storage/class-diagram.png)
