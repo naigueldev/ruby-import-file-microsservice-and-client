@@ -3,7 +3,7 @@ class TransactionsController < ApplicationController
     Transactions::Import.execute(transaction_params[:file])
     render json: { message: 'File uploaded successfully' }, status: 200
   rescue StandardError => e
-    render json: { message: "Import error #{e.message}" }, status: 400
+    render json: { message: "Arquivo inválido" }, status: 400
   end
 
   def list
