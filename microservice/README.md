@@ -46,4 +46,4 @@
 
 ## Diagrama de classes
 
-![Class diagram](./storage/class-diagram.png)
+![Class diagram](./vendor/class-diagram.png)
